@@ -1,0 +1,5 @@
+.vagrant
+.virtualbox
+build
+config
+chr.vdi

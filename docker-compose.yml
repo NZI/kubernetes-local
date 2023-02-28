@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  mikrotik_build:
+    privileged: true
+    working_dir: /app/build
+    build: ./docker/ubuntu
+    volumes:
+      - ./:/app
+    command: /app/provision/mikrotik.sh
